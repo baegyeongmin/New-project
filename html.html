@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+ <head>
+    <title>거창고등학교 시간표!</title>
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" charset="utf-8">
+    <style>
+        *{
+            margin: 0;
+	    -webkit-user-select:none;
+	    -moz-user-select:none;
+	    -ms-user-select:none;
+	    user-select:none
+        }
+        body{font-family: arial,sans-serif}
+        li{
+            list-style: none;
+        }
+        #header{
+            height: 45px;
+            position: relative;
+            text-align: center;
+            line-height: 45px;
+        }
+        #main_all{
+            display: block;
+        }
+        #section{
+            position: relative;
+            text-align: center;
+        }
+        nav{
+
+        }
+        table{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        td{
+            border: 1px solid black;
+            border-collapse : collapse; 
+        }
+        tbody th:last-child{
+            opacity: 0;
+	    }
+        thead th{
+            padding: 3px
+        }
+        tbody th{
+            padding: 0;
+            width: 10px;
+        }
+        tbody td{
+            height: 100px;
+            width: 100px;
+        }
+        .fontsize_large{
+            font-size: 20px;
+        }
+        .fontsize_middle{
+            font-size: 10px;
+            color: red;
+        }
+        input[type="radio"]{
+            display: none;
+        }
+        #half,#grade{
+            text-align: center;
+            position: relative;
+        }
+        span{
+            font-size: 100px;
+            margin: 0 10px;
+        }
+        input[type="radio"]:checked + span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <form>
+            <div id="grade">
+                <label>
+                    <input type="radio" name="grade" value="1">
+                    <span>1학년</span>
+                </label>
+                <label>
+                    <input type="radio" name="grade" value="2">
+                    <span>2학년</span>
+                </label>
+            </div>
+            <div id="half">
+                <label>
+                    <input type="radio" name="half" value="1">
+                    <span>1반</span>
+                </label>
+                <label>
+                    <input type="radio" name="half" value="2">
+                    <span>2반</span>
+                </label>
+                <label>
+                    <input type="radio" name="half" value="3">
+                    <span>3반</span>
+                </label>
+                <label>
+                    <input type="radio" name="half" value="4">
+                    <span>4반</span>
+                </label>
+            </div>
+            <br>
+            <button style="display: block; margin: auto;" type="button" onclick="put(grade.value,half.value)">
+                <p style="font-size: 100px;">이동근</p>
+            </button>
+        </form>
+    </nav>
+
+
+    <div id="main_all">
+        <hr style="height: 3px; background-color: black;">
+    <section id="section">
+        <table id="table">
+            <thead class="fontsize_large">
+                <th></th>
+                <th>월</th>
+                <th>화</th>
+                <th>수</th>
+                <th>목</th>
+                <th>금</th>
+            </thead>
+            <tbody class="fontsize_middle">
+                <tr>
+                    <th>1</th>
+                    <td class="Monday">월요일 <br> 1교시</td>
+                    <td class="Tuseday">화요일 <br> 1교시</td>
+                    <td class="Wednesday">수요일 <br> 1교시</td>
+                    <td class="Thursday">목요일 <br> 1교시</td>
+                    <td class="Friday">금요일 <br> 1교시</td>
+                    <th>1</th>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td class="Monday">월요일 <br> 2교시</td>
+                    <td class="Tuseday">화요일 <br> 2교시</td>
+                    <td class="Wednesday">수요일 <br> 2교시</td>
+                    <td class="Thursday">목요일 <br> 2교시</td>
+                    <td class="Friday">금요일 <br> 2교시</td>
+                    <th>2</th>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td class="Monday">월요일 <br> 3교시</td>
+                    <td class="Tuseday">화요일 <br> 3교시</td>
+                    <td class="Wednesday">수요일 <br> 3교시</td>
+                    <td class="Thursday">목요일 <br> 3교시</td>
+                    <td class="Friday">금요일 <br> 3교시</td>
+                    <th>3</th>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <td class="Monday">월요일 <br> 4교시</td>
+                    <td class="Tuseday">화요일 <br> 4교시</td>
+                    <td class="Wednesday">수요일 <br> 4교시</td>
+                    <td class="Thursday">목요일 <br> 4교시</td>
+                    <td class="Friday">금요일 <br> 4교시</td>
+                    <th>4</th>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <td class="Monday">월요일 <br> 5교시</td>
+                    <td class="Tuseday">화요일 <br> 5교시</td>
+                    <td class="Wednesday">수요일 <br> 5교시</td>
+                    <td class="Thursday">목요일 <br> 5교시</td>
+                    <td class="Friday">금요일 <br> 5교시</td>
+                    <th>5</th>
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <td class="Monday">월요일 <br> 6교시</td>
+                    <td class="Tuseday">화요일 <br> 6교시</td>
+                    <td class="Wednesday">수요일 <br> 6교시</td>
+                    <td class="Thursday">목요일 <br> 6교시</td>
+                    <td class="Friday">금요일 <br> 6교시</td>
+                    <th>6</th>
+                </tr>
+                <tr>
+                    <th>7</th>
+                    <td class="Monday">월요일 <br> 7교시</td>
+                    <td class="Tuseday">화요일 <br> 7교시</td>
+                    <td class="Wednesday">수요일 <br> 7교시</td>
+                    <td class="Thursday">목요일 <br> 7교시</td>
+                    <td class="Friday">금요일 <br> 7교시</td>
+                    <th>7</th>
+                </tr>
+                <tr>
+                    <th>8</th>
+                    <td class="Monday">월요일 <br> 8교시</td>
+                    <td class="Tuseday">화요일 <br> 8교시</td>
+                    <td class="Wednesday">수요일 <br> 8교시</td>
+                    <td class="Thursday">목요일 <br> 8교시</td>
+                    <td class="Friday">금요일 <br> 8교시</td>
+                    <th>8</th>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    </div>
+    <script type="text/javascript" src="almeng.js"></script>
+</body>
+</html>
