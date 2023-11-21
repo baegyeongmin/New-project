@@ -22,13 +22,14 @@
         }
         #main_all{
             display: block;
+            text-align: center;
         }
         #section{
             position: relative;
             text-align: center;
         }
-        nav{
-
+        #nav_all{
+            display: none;
         }
         table{
             margin-left: auto;
@@ -76,7 +77,7 @@
     </style>
 </head>
 <body>
-    <nav>
+    <nav id="nav_all">
         <form>
             <div id="grade">
                 <label>
@@ -108,14 +109,14 @@
             </div>
             <br>
             <button style="display: block; margin: auto;" type="button" onclick="put(grade.value,half.value)">
-                <p style="font-size: 100px;">이동근</p>
+                <p style="font-size: 100px;">이동</p>
             </button>
         </form>
     </nav>
 
 
     <div id="main_all">
-        <hr style="height: 3px; background-color: black;">
+        <button onclick="change()">학년 반 바꾸기</button>
     <section id="section">
         <table id="table">
             <thead class="fontsize_large">
