@@ -33,27 +33,27 @@ function set(){
     subject[1][3][0][0] = mulli;
 
     subject[0][0][0][1] = "한국사";
-    subject[0][1][0][1] = "손희정\n국어";
-    subject[0][2][0][1] = "김상인\n통합사회";
-    subject[0][3][0][1] = "안효천\n영어";
+    subject[0][1][0][1] = "국어";
+    subject[0][2][0][1] = "통합사회S";
+    subject[0][3][0][1] = "영어A";
     subject[1][0][0][1] = art_music;
     subject[1][1][0][1] = art_music;
     subject[1][2][0][1] = china;
     subject[1][3][0][1] = china;
 
     subject[0][0][0][2] = "체육";
-    subject[0][1][0][2] = "김태진\n통합사회";
-    subject[0][2][0][2] = "안호천\n영어";
-    subject[0][3][0][2] = "손희정\n국어";
+    subject[0][1][0][2] = "통합사회T";
+    subject[0][2][0][2] = "영어A";
+    subject[0][3][0][2] = "국어";
     subject[1][0][0][2] = china;
     subject[1][1][0][2] = china;
     subject[1][2][0][2] = art_music;
     subject[1][3][0][2] = art_music;
 
     subject[0][0][0][3] = "미술";
-    subject[0][1][0][3] = "손평화\n영어";
-    subject[0][2][0][3] = "진영수\n통합과학";
-    subject[0][3][0][3] = "강병현\n통합과학";
+    subject[0][1][0][3] = "영어S";
+    subject[0][2][0][3] = "생명";
+    subject[0][3][0][3] = "물리";
     subject[1][0][0][3] = geometry;
     subject[1][1][0][3] = geometry;
     subject[1][2][0][3] = geometry;
@@ -68,7 +68,7 @@ function set(){
     subject[1][2][0][4] = hwahak;
     subject[1][3][0][4] = hwahak;
 
-    subject[0][0][0][5] = "안효천\n영어";
+    subject[0][0][0][5] = "영어A";
     subject[0][1][0][5] = "한국사";
     subject[0][2][0][5] = "음악";
     subject[0][3][0][5] = "음악";
@@ -82,9 +82,9 @@ function set(){
     subject[0][2][0][6] = "국보";
     subject[0][3][0][6] = "국보";
     subject[1][0][0][6] = "보건";
-    subject[1][1][0][6] = "김한슬\n영어";
+    subject[1][1][0][6] = "영어K";
     subject[1][2][0][6] = "성경";
-    subject[1][3][0][6] = "박소영\n영어";
+    subject[1][3][0][6] = "영어P";
 
     subject[0][0][0][7] = "영보";
     subject[0][1][0][7] = "영보";
@@ -95,34 +95,34 @@ function set(){
     subject[1][2][0][7] = "수보";
     subject[1][3][0][7] = "수보";
 
-    subject[0][0][1][0] = "이혜영\n통합과학";
+    subject[0][0][1][0] = "화학";
     subject[0][1][1][0] = "체육";
-    subject[0][2][1][0] = "손희정\n국어";
+    subject[0][2][1][0] = "국어";
     subject[0][3][1][0] = "정보";
     subject[1][0][1][0] = mulli;
     subject[1][1][1][0] = mulli;
     subject[1][2][1][0] = mulli;
     subject[1][3][1][0] = mulli;
 
-    subject[0][0][1][1] = "과학탐구실험";
-    subject[0][1][1][1] = "과학탐구실험";
-    subject[0][2][1][1] = "김태진\n통합사회";
+    subject[0][0][1][1] = "과탐실";
+    subject[0][1][1][1] = "과탐실";
+    subject[0][2][1][1] = "통합사회T";
     subject[0][3][1][1] = "성경";
     subject[1][0][1][1] = "체육";
     subject[1][1][1][1] = "보건";
-    subject[1][2][1][1] = "김한슬\n영어";
+    subject[1][2][1][1] = "영어K";
     subject[1][3][1][1] = "ER";
 
-    subject[0][0][1][2] = "손희정\n국어";
-    subject[0][1][1][2] = "안효천\n영어";
+    subject[0][0][1][2] = "국어";
+    subject[0][1][1][2] = "영어A";
     subject[0][2][1][2] = "한국사";
-    subject[0][3][1][2] = "손평화\n영어";
+    subject[0][3][1][2] = "영어S";
     subject[1][0][1][2] = imformation;
     subject[1][1][1][2] = imformation;
     subject[1][2][1][2] = imformation;
     subject[1][3][1][2] = imformation;
 
-    subject[0][0][1][3] = "강병현\n통합과학";
+    subject[0][0][1][3] = "물리";
     subject[0][1][1][3] = "한국사";
     subject[0][2][1][3] = "정보";
     subject[0][3][1][3] = "ER";
@@ -131,10 +131,10 @@ function set(){
     subject[1][2][1][3] = hwahak;
     subject[1][3][1][3] = hwahak;
 
-    subject[0][0][1][4] = "손평화\n영어";
-    subject[0][1][1][4] = "이병두\n국어";
+    subject[0][0][1][4] = "영어S";
+    subject[0][1][1][4] = "국어\n이병두";
     subject[0][2][1][4] = "성경";
-    subject[0][3][1][4] = "손희정\n국어";
+    subject[0][3][1][4] = "국어";
     subject[1][0][1][4] = travel;
     subject[1][1][1][4] = travel;
     subject[1][2][1][4] = travel;
@@ -152,7 +152,7 @@ function set(){
     subject[0][0][1][6] = "한국사";
     subject[0][1][1][6] = "정보";
     subject[0][2][1][6] = "ER";
-    subject[0][3][1][6] = "이혜영\n통합과학";
+    subject[0][3][1][6] = "화학";
     subject[1][0][1][6] = math2;
     subject[1][1][1][6] = math2;
     subject[1][2][1][6] = math2;
@@ -167,8 +167,8 @@ function set(){
     subject[1][2][1][7] = "예배";
     subject[1][3][1][7] = "예배";
 
-    subject[0][0][2][0] = "손희정\n국어";
-    subject[0][1][2][0] = "강병현\n통합과학";
+    subject[0][0][2][0] = "국어";
+    subject[0][1][2][0] = "물리";
     subject[0][2][2][0] = "한국사";
     subject[0][3][2][0] = "음악";
     subject[1][0][2][0] = hwahak;
@@ -176,9 +176,9 @@ function set(){
     subject[1][2][2][0] = hwahak;
     subject[1][3][2][0] = hwahak;
 
-    subject[0][0][2][1] = "김상인\n통합사회";
-    subject[0][1][2][1] = "김태진\n통합사회";
-    subject[0][2][2][1] = "손희정\n국어";
+    subject[0][0][2][1] = "통합사회S";
+    subject[0][1][2][1] = "통합사회T";
+    subject[0][2][2][1] = "국어";
     subject[0][3][2][1] = "한국사";
     subject[1][0][2][1] = math2;
     subject[1][1][2][1] = math2;
@@ -194,19 +194,19 @@ function set(){
     subject[1][2][2][2] = mulli;
     subject[1][3][2][2] = mulli;
 
-    subject[0][0][2][3] = "김태진\n통합사회";
-    subject[0][1][2][3] = "진영수\n통합과학";
-    subject[0][2][2][3] = "강병현\n통합과학";
+    subject[0][0][2][3] = "통합사회T";
+    subject[0][1][2][3] = "생명";
+    subject[0][2][2][3] = "물리";
     subject[0][3][2][3] = "체육";
     subject[1][0][2][3] = art_music;
     subject[1][1][2][3] = art_music;
-    subject[1][2][2][3] = "김한슬\n영어";
+    subject[1][2][2][3] = "영어K";
     subject[1][3][2][3] = "성경";
 
     subject[0][0][2][4] = "미술";
     subject[0][1][2][4] = "미술";
-    subject[0][2][2][4] = "손평화\n영어";
-    subject[0][3][2][4] = "안효천\n영어";
+    subject[0][2][2][4] = "영어S";
+    subject[0][3][2][4] = "영어A";
     subject[1][0][2][4] = china;
     subject[1][1][2][4] = china;
     subject[1][2][2][4] = korean;
@@ -214,17 +214,17 @@ function set(){
 
     subject[0][0][2][5] = "미술";
     subject[0][1][2][5] = "미술";
-    subject[0][2][2][5] = "김태진\n통합사회";
-    subject[0][3][2][5] = "김상인\n통합사회";
-    subject[1][0][2][5] = "박소영\n영어";
-    subject[1][1][2][5] = "김한슬\n영어";
+    subject[0][2][2][5] = "통합사회T";
+    subject[0][3][2][5] = "통합사회S";
+    subject[1][0][2][5] = "영어P";
+    subject[1][1][2][5] = "영어K";
     subject[1][2][2][5] = china;
     subject[1][3][2][5] = china;
 
-    subject[0][0][2][6] = "진영수\n통합과학";
-    subject[0][1][2][6] = "안효천\n영어";
-    subject[0][2][2][6] = "과학탐구실험";
-    subject[0][3][2][6] = "과학탐구실험";
+    subject[0][0][2][6] = "생명";
+    subject[0][1][2][6] = "영어A";
+    subject[0][2][2][6] = "과탐실";
+    subject[0][3][2][6] = "과탐실";
     subject[1][0][2][6] = korean;
     subject[1][1][2][6] = korean;
     subject[1][2][2][6] = art_music;
@@ -241,7 +241,7 @@ function set(){
 
     subject[0][0][3][0] = "합동체육";
     subject[0][1][3][0] = "합동체육";
-    subject[0][2][3][0] = "이병두\n국어";
+    subject[0][2][3][0] = "국어\n이병두";
     subject[0][3][3][0] = "한국사";
     subject[1][0][3][0] = korean;
     subject[1][1][3][0] = korean;
@@ -258,18 +258,18 @@ function set(){
     subject[1][3][3][1] = korean;
 
     subject[0][0][3][2] = "한국사";
-    subject[0][1][3][2] = "이혜영\n통합과학";
+    subject[0][1][3][2] = "화학";
     subject[0][2][3][2] = "정보";
-    subject[0][3][3][2] = "이병두\n국어";
-    subject[1][0][3][2] = "김한슬\n영어";
+    subject[0][3][3][2] = "국어\n이병두";
+    subject[1][0][3][2] = "영어K";
     subject[1][1][3][2] = "체육";
-    subject[1][2][3][2] = "박소영\n영어";
+    subject[1][2][3][2] = "영어P";
     subject[1][3][3][2] = "진로";
 
-    subject[0][0][3][3] = "안효천\n영어";
-    subject[0][1][3][3] = "손희정\n국어";
+    subject[0][0][3][3] = "영어A";
+    subject[0][1][3][3] = "국어";
     subject[0][2][3][3] = "체육";
-    subject[0][3][3][3] = "김태진\n통합사회";
+    subject[0][3][3][3] = "통합사회T";
     subject[1][0][3][3] = mulli;
     subject[1][1][3][3] = mulli;
     subject[1][2][3][3] = mulli;
@@ -284,14 +284,14 @@ function set(){
     subject[1][2][3][4] = "HR";
     subject[1][3][3][4] = "HR";
 
-    subject[0][0][3][5] = "손희정\n국어";
+    subject[0][0][3][5] = "국어";
     subject[0][1][3][5] = "성경";
     subject[0][2][3][5] = "한국사";
     subject[0][3][3][5] = "정보";
     subject[1][0][3][5] = "진로";
-    subject[1][1][3][5] = "박소영\n영어";
+    subject[1][1][3][5] = "영어P";
     subject[1][2][3][5] = "체육";
-    subject[1][3][3][5] = "김한슬\n영어";
+    subject[1][3][3][5] = "영어K";
 
     subject[0][0][3][6] = "수보";
     subject[0][1][3][6] = "수보";
@@ -322,23 +322,23 @@ function set(){
 
     subject[0][0][4][1] = "정보";
     subject[0][1][4][1] = "한국사";
-    subject[0][2][4][1] = "안효천\n영어";
+    subject[0][2][4][1] = "영어A";
     subject[0][3][4][1] = "진로";
-    subject[1][0][4][1] = "김한슬\n영어";
+    subject[1][0][4][1] = "영어K";
     subject[1][1][4][1] = "ER";
     subject[1][2][4][1] = china;
     subject[1][3][4][1] = china;
 
     subject[0][0][4][2] = "진로";
     subject[0][1][4][2] = "ER";
-    subject[0][2][4][2] = "이혜영\n통합과학";
-    subject[0][3][4][2] = "손희정\n국어";
+    subject[0][2][4][2] = "화학";
+    subject[0][3][4][2] = "국어";
     subject[1][0][4][2] = travel;
     subject[1][1][4][2] = travel;
     subject[1][2][4][2] = travel;
     subject[1][3][4][2] = travel;
 
-    subject[0][0][4][3] = "김태진\n통합사회";
+    subject[0][0][4][3] = "통합사회T";
     subject[0][1][4][3] = "정보";
     subject[0][2][4][3] = "합동체육";
     subject[0][3][4][3] = "합동체육";
@@ -349,24 +349,24 @@ function set(){
 
     subject[0][0][4][4] = "성경";
     subject[0][1][4][4] = "진로";
-    subject[0][2][4][4] = "손희정\n국어";
-    subject[0][3][4][4] = "진영수\n통합과학";
+    subject[0][2][4][4] = "국어";
+    subject[0][3][4][4] = "생명";
     subject[1][0][4][4] = china;
     subject[1][1][4][4] = china;
     subject[1][2][4][4] = "ER";
-    subject[1][3][4][4] = "김한슬\n영어";
+    subject[1][3][4][4] = "영어K";
 
-    subject[0][0][4][5] = "이병두\n국어";
-    subject[0][1][4][5] = "김상인\n통합사회";
+    subject[0][0][4][5] = "국어\n이병두";
+    subject[0][1][4][5] = "통합사회S";
     subject[0][2][4][5] = "음악";
-    subject[0][3][4][5] = "김태진\n통합사회";
+    subject[0][3][4][5] = "통합사회T";
     subject[1][0][4][5] = math2;
     subject[1][1][4][5] = math2;
     subject[1][2][4][5] = math2;
     subject[1][3][4][5] = math2;
 
     subject[0][0][4][6] = "ER";
-    subject[0][1][4][6] = "손희정\n국어";
+    subject[0][1][4][6] = "국어";
     subject[0][2][4][6] = "진로";
     subject[0][3][4][6] = "한국사";
     subject[1][0][4][6] = hwahak;
