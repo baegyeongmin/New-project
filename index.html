@@ -59,7 +59,7 @@
         }
         .fontsize_middle{
             font-size: 10px;
-            color: red;
+            color: black;
         }
         input[type="radio"]{
             display: none;
@@ -86,11 +86,11 @@
         <form>
             <div id="grade">
                 <label>
-                    <input type="radio" name="grade" value="1">
+                    <input type="radio" name="grade" value="1" onclick="change_2nd()">
                     <span class="asize">1학년</span>
                 </label>
                 <label>
-                    <input type="radio" name="grade" value="2">
+                    <input type="radio" name="grade" value="2" onclick="change_1st()">
                     <span class="asize">2학년</span>
                 </label>
             </div>
@@ -112,8 +112,58 @@
                     <span class="bsize">4반</span>
                 </label>
             </div>
+            <div id="st">
+                <select name="math2" id="math2">
+                    <option value="수학1">수학1</option>
+                    <option value="심화수학">심화수학</option>
+                </select>
+            </div>
+            <div id="nd">
+                <select name="math1" id="math1" >
+                    <option value="미적분">미적분</option>
+                    <option value="확통">확통</option>
+                </select>
+                <select name="korean" id="korean" >
+                    <option value="언어와 매체">언어와 매체</option>
+                    <option value="화법과 작문">화법과 작문</option>
+                </select>
+                <select name="art_music" id="art_music" >
+                    <option value="음악">음악</option>
+                    <option value="미술">미술</option>
+                </select>
+                <select name="china" id="china" >
+                    <option value="한문">한문</option>
+                    <option value="중국어">중국어</option>
+                </select>
+                <select name="geometry" id="geometry" >
+                    <option value="기하">기하</option>
+                    <option value="경제수학">경제수학</option>
+                    <option value="문예창작">문예창작</option>
+                </select>
+                <select name="imformation" id="imformation" >
+                    <option value="정보">정보</option>
+                    <option value="창의경영">창의경영</option>
+                    <option value="공학일반">공학일반</option>
+                </select>
+                <select name="travel" id="travel" >
+                    <option value="여행지리">여행지리</option>
+                    <option value="과학사">과학사</option>
+                </select>
+                <select name="mulli" id="mulli" >
+                    <option value="물리">물리</option>
+                    <option value="생명">생명</option>
+                    <option value="지역이해">지역이해</option>
+                    <option value="국제경제">국제경제</option>
+                </select>
+                <select name="hwahak" id="hwahak" >
+                    <option value="화학">화학</option>
+                    <option value="지구과학">지구과학</option>
+                    <option value="고전과윤리">고전과윤리</option>
+                    <option value="국제관계와 기구">국제관계와 기구</option>
+                </select>
+            </div>
             <br>
-            <button style="display: block; margin: auto;" type="button" onclick="put(grade.value,half.value)">
+            <button style="display: block; margin: auto;" type="button" onclick="put(grade.value,half.value,math1.value,korean.value,art_music.value,china.value,geometry.value,imformation.value,travel.value,mulli.value,hwahak.value,math2.value)">
                 <p style="font-size: 100px;">이동</p>
             </button>
         </form>
