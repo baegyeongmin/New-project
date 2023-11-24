@@ -10,6 +10,37 @@ for(let i=0;i<2;i++){
     }
 }
 
+let yoel = new Date().getDay();
+switch(yoel){
+    case 1:
+        for(let i=0;i<8;i++){
+            document.querySelectorAll("td.Monday")[i].style.backgroundColor = "rgba(104, 236, 243, 0.61)";
+        }
+        break;
+    case 2:
+        for(let i=0;i<8;i++){
+            document.querySelectorAll("td.Tuseday")[i].style.backgroundColor = "rgba(104, 236, 243, 0.61)";
+        }
+        break;
+    case 3:
+        for(let i=0;i<8;i++){
+            document.querySelectorAll("td.Wednesday")[i].style.backgroundColor = "rgba(104, 236, 243, 0.61)";
+        }
+        break;
+    case 4:
+        for(let i=0;i<8;i++){
+            document.querySelectorAll("td.Thursday")[i].style.backgroundColor = "rgba(104, 236, 243, 0.61)";
+        }
+        break;
+    case 5:
+        for(let i=0;i<8;i++){
+            document.querySelectorAll("td.Friday")[i].style.backgroundColor = "rgba(104, 236, 243, 0.61)";
+        }
+        break;
+    default:
+        break;
+}
+
 function set(){
     let math1 = JSON.parse(localStorage.getItem("math1"));
     let korean = JSON.parse(localStorage.getItem("korean"));
