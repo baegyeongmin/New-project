@@ -132,7 +132,7 @@ function set(){
     subject[1][3][1][3] = hwahak;
 
     subject[0][0][1][4] = "영어S";
-    subject[0][1][1][4] = "국어\n이병두";
+    subject[0][1][1][4] = "국어";
     subject[0][2][1][4] = "성경";
     subject[0][3][1][4] = "국어";
     subject[1][0][1][4] = travel;
@@ -241,7 +241,7 @@ function set(){
 
     subject[0][0][3][0] = "합동체육";
     subject[0][1][3][0] = "합동체육";
-    subject[0][2][3][0] = "국어\n이병두";
+    subject[0][2][3][0] = "국어";
     subject[0][3][3][0] = "한국사";
     subject[1][0][3][0] = korean;
     subject[1][1][3][0] = korean;
@@ -260,7 +260,7 @@ function set(){
     subject[0][0][3][2] = "한국사";
     subject[0][1][3][2] = "화학";
     subject[0][2][3][2] = "정보";
-    subject[0][3][3][2] = "국어\n이병두";
+    subject[0][3][3][2] = "국어";
     subject[1][0][3][2] = "영어K";
     subject[1][1][3][2] = "체육";
     subject[1][2][3][2] = "영어P";
@@ -356,7 +356,7 @@ function set(){
     subject[1][2][4][4] = "ER";
     subject[1][3][4][4] = "영어K";
 
-    subject[0][0][4][5] = "국어\n이병두";
+    subject[0][0][4][5] = "국어";
     subject[0][1][4][5] = "통합사회S";
     subject[0][2][4][5] = "음악";
     subject[0][3][4][5] = "통합사회T";
