@@ -10,32 +10,29 @@ for(let i=0;i<2;i++){
     }
 }
 
-Notification.requestPermission().then(function(result) {
-    console.log(result);
-});
-
+function notibutton(){
+    let noti = document.getElementById('noti');
+    if(Notification.permission === "granted"){
+        noti.style.display = "none";
+    }else{
+        noti.style.display = "block";
+    }
+}
+notibutton();
+function asknoti(){
+    Notification.requestPermission().then(function(result) {
+        console.log(result);
+    });
+}
 function print(){
     let notification
     if (Notification.permission === "granted") {
-        alert("ad")
         notification = new Notification("Hi there!");
-    } else if (Notification.permission !== 'denied') {
-        Notification.requestPermission(function (permission) {
-            if (permission === "granted") {
-                notification = new Notification(`fe`, {
-                    body: `no`,
-                    icon: 'hello.png',
-                });
-            }else {
-                console.log(Notification.permission);
-                alert("no")
-            }
-        });
+        notification.onclick = function(){
+            window.location.href = 'https://geogo.kro.kr';
+        };
     }
 }
-
-print();
-
 let yoel = new Date().getDay();
 switch(yoel){
     case 1:
