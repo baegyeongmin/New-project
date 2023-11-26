@@ -10,6 +10,32 @@ for(let i=0;i<2;i++){
     }
 }
 
+Notification.requestPermission().then(function(result) {
+    console.log(result);
+});
+
+function print(){
+    let notification
+    if (Notification.permission === "granted") {
+        alert("ad")
+        notification = new Notification("Hi there!");
+    } else if (Notification.permission !== 'denied') {
+        Notification.requestPermission(function (permission) {
+            if (permission === "granted") {
+                notification = new Notification(`fe`, {
+                    body: `no`,
+                    icon: 'hello.png',
+                });
+            }else {
+                console.log(Notification.permission);
+                alert("no")
+            }
+        });
+    }
+}
+
+print();
+
 let yoel = new Date().getDay();
 switch(yoel){
     case 1:
