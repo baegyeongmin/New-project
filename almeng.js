@@ -20,9 +20,7 @@ function notibutton(){
 }
 notibutton();
 function asknoti(){
-    Notification.requestPermission().then(function(result) {
-        console.log(result);
-    });
+    Notification.requestPermission();
 }
 function print(){
     let notification
