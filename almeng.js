@@ -37,27 +37,27 @@ let yoel = new Date().getDay();
 switch(yoel){
     case 1:
         for(let i=0;i<8;i++){
-            document.querySelectorAll("td.Monday")[i].style.backgroundColor = "rgba(104, 236, 243, 0.61)";
+            document.querySelectorAll("td.Monday")[i].style.backgroundColor = "rgb(223,236,252)";
         }
         break;
     case 2:
         for(let i=0;i<8;i++){
-            document.querySelectorAll("td.Tuseday")[i].style.backgroundColor = "rgba(104, 236, 243, 0.61)";
+            document.querySelectorAll("td.Tuseday")[i].style.backgroundColor = "rgb(223,236,252)";
         }
         break;
     case 3:
         for(let i=0;i<8;i++){
-            document.querySelectorAll("td.Wednesday")[i].style.backgroundColor = "rgba(104, 236, 243, 0.61)";
+            document.querySelectorAll("td.Wednesday")[i].style.backgroundColor = "rgb(223,236,252)";
         }
         break;
     case 4:
         for(let i=0;i<8;i++){
-            document.querySelectorAll("td.Thursday")[i].style.backgroundColor = "rgba(104, 236, 243, 0.61)";
+            document.querySelectorAll("td.Thursday")[i].style.backgroundColor = "rgb(223,236,252)";
         }
         break;
     case 5:
         for(let i=0;i<8;i++){
-            document.querySelectorAll("td.Friday")[i].style.backgroundColor = "rgba(104, 236, 243, 0.61)";
+            document.querySelectorAll("td.Friday")[i].style.backgroundColor = "rgb(223,236,252)";
         }
         break;
     default:
